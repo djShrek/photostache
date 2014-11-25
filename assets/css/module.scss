@@ -1,0 +1,13 @@
+/* --- NAVBAR --- */
+.navbar {
+    ul {
+        background: white;
+        li {
+            border-right: 1px solid #ddd;
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}
+

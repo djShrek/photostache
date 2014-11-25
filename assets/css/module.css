@@ -1,0 +1,7 @@
+/* --- NAVBAR --- */
+.navbar ul {
+  background: white; }
+  .navbar ul li {
+    border-right: 1px solid #ddd; }
+    .navbar ul li:last-child {
+      border-right: none; }

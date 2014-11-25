@@ -1,0 +1,9 @@
+{
+  "name": "Photostache",
+  "version": "1.0",
+  "dependencies": {
+    "jquery": "latest",
+    "fontawesome": "latest",
+    "bootstrap": "latest"
+  }
+}
