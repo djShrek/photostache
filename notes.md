@@ -3,6 +3,18 @@
 -Using Bower for this project
 -Using Bootstrap for Front-End Design
 
+11/25/14
+
+-Using animate.css
+-Using Wow.js
+-Using Backstretch.js
+-Using jQuery
+
+11/26/14
+
+-Installed lightbox2 for basic photo gallery
+
+
 *** Main Page ***
 
 * --- Main Logo --- *
@@ -23,6 +35,18 @@
 -Right below navigation
 -Spans across the screen
 -Takes up enough height to fill the browser (responsive)
+
+* --- Gallery --- *
+
+-Gallery images should display special links on hover
+-Images should have a grey tint on hover
+
+* --- Contact Section --- *
+
+
+* --- Footer --- *
+
+-Will have social media icons?
 
 * --- Future Notes --- *
 

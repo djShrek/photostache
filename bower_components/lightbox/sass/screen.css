@@ -1,35 +1,22 @@
 /*
-Syntax error: Undefined variable: "$secondaryFont".
-        on line 27 of ./assets/css/module.scss
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load path: /Users/bobbyho0064/Dropbox/code/projects/photostache
+        on line 1 of ./bower_components/lightbox/sass/screen.sass
 
-22: /* --- Backstretch ---*\/
-23: 
-24: /* --- Section Header --- *\/
-25: 
-26: .section-header {
-27:     font-family: $secondaryFont;
-28:     text-transform: uppercase;
-29:     font-weight: 700;
-30:     text-align: center;
-31:     margin-bottom: 50px;
-32:     letter-spacing: 3px;
+1: @import "compass/css3"
+2: @import "compass/utilities/general/clearfix"
+3: 
+4: @import "normalize"
+5: 
+6: // COLORS & BACKGROUNDS --------------------------------------------------------
 
 Backtrace:
-./assets/css/module.scss:27
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+./bower_components/lightbox/sass/screen.sass:1
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/import_node.rb:45:in `import'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +53,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 27 of ./assets/css/module.scss\A \A 22: /* --- Backstretch ---*/\A 23: \A 24: /* --- Section Header --- */\A 25: \A 26: .section-header {\A 27:     font-family: $secondaryFont;\A 28:     text-transform: uppercase;\A 29:     font-weight: 700;\A 30:     text-align: center;\A 31:     margin-bottom: 50px;\A 32:     letter-spacing: 3px;"; }
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: /Users/bobbyho0064/Dropbox/code/projects/photostache\A         on line 1 of ./bower_components/lightbox/sass/screen.sass\A \A 1: @import \"compass/css3\"\A 2: @import \"compass/utilities/general/clearfix\"\A 3: \A 4: @import \"normalize\"\A 5: \A 6: // COLORS & BACKGROUNDS --------------------------------------------------------"; }

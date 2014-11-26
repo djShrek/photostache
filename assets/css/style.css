@@ -1,3 +1,6 @@
+/* --- COLORS --- */
+/* --- FONTS --- */
+/* --- COLORS END ---*/
 html, body {
   height: 100%; }
 
@@ -21,22 +24,53 @@ section {
 /* --- Backstretch ---*/
 /* --- Section Header --- */
 .section-header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  padding: 40px 0;
+  border-top: 1px solid #1bc7a5;
+  border-bottom: 1px solid #1bc7a5; }
+
+/* --- Lightbox --- */
+.gallery {
+  margin: 5px 0; }
+
+/* --- WuFoo Form ---*/
+#form1 #header h2 {
+  /* Title of Contact Form */ }
+#form1 #header div {
+  /* Sub-text under the title of the contact form*/ }
 
 /* --- HEADER ---*/
 .logo {
-  font-family: 'Lobster', cursive, Arial, Helvetica;
+  font-family: "Lobster", cursive, Arial, Helvetica;
   font-size: 50px;
   text-align: center;
   margin: 30px 0 30px 0; }
 
-/* --- END OF HEADER ---*/
-/*--- SECTION 3 ---*/
+/*--- SECTION 2 AKA ABOUT ---*/
+#section2 .gaykim {
+  margin-bottom: 50px; }
+
+/*--- SECTION 3 AKA TESTIMONIALS ---*/
 #section3 img {
   height: 150px;
-  width: 175px; }
+  width: 175px;
+  border: 2px solid black; }
+
+/*--- SECTION 4 AKA PHOTO GALLERY ---*/
+/*--- SECTION 5 AKA CONTACT FORM ---*/
+#section5 {
+  background-color: #1bc7a5;
+  display: block;
+  min-height: 100%; }
+  #section5 h1 {
+    color: white;
+    font-family: "Lobster", cursive, Arial, Helvetica;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 55px !important; }
