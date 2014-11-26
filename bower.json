@@ -4,6 +4,7 @@
   "dependencies": {
     "jquery": "latest",
     "fontawesome": "latest",
-    "bootstrap": "latest"
+    "bootstrap": "latest",
+    "wow": "latest"
   }
 }

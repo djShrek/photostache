@@ -1,7 +1,8 @@
 /* --- NAVBAR --- */
 .navbar {
+    background: white;
+    margin-bottom: 0;
     ul {
-        background: white;
         li {
             border-right: 1px solid #ddd;
             &:last-child {
@@ -9,5 +10,21 @@
             }
         }
     }
+}
+
+.navbar-nav.nav-justified > li{
+    float: none;
+}
+
+/* --- Flexslider --- */
+
+/* --- Backstretch ---*/
+
+.test {
+    display: block;   
+}
+
+.test2 {
+    height: 200px;
 }
 

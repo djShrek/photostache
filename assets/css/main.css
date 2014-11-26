@@ -1,0 +1,23 @@
+html, body {
+  height: 100%; }
+
+/*** Centering ***/
+/* --- NAVBAR --- */
+.navbar {
+  background: white;
+  margin-bottom: 0; }
+  .navbar ul li {
+    border-right: 1px solid #ddd; }
+    .navbar ul li:last-child {
+      border-right: none; }
+
+.navbar-nav.nav-justified > li {
+  float: none; }
+
+/* --- Flexslider --- */
+/* --- Backstretch ---*/
+.test {
+  display: block; }
+
+.test2 {
+  height: 200px; }
