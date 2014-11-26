@@ -14,12 +14,15 @@ $(window).load(function() {
     "assets/img/slide1.jpg",
     "assets/img/slide2.jpg",
     "assets/img/slide3.jpg",
-    "assets/img/slide4.jpg",
-    "assets/img/slide5.jpg"
-  ], {duration: 4000});
+    "assets/img/slide4.jpg"
+  ], {duration: 4000, fade: "normal"});
 
   /* Set height of div is Window viewport*/
 
   bs.height($(window).height() - (bs.offset().top));
+
+  /* WOW.js Init */
+
+  new WOW().init();
 
 });

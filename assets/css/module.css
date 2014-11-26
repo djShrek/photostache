@@ -1,4 +1,4 @@
-/* --- NAVBAR --- */
+/* --- Mavigation Bar --- */
 .navbar {
   background: white;
   margin-bottom: 0; }
@@ -12,8 +12,11 @@
 
 /* --- Flexslider --- */
 /* --- Backstretch ---*/
-.test {
-  display: block; }
-
-.test2 {
-  height: 200px; }
+/* --- Section Header --- */
+.section-header {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 3px; }
