@@ -52,6 +52,21 @@
         font-weight: 700;
         letter-spacing: 3px;
         text-align: center;
-        margin-top: 55px !important;
+        margin: 55px 0 !important;
+    }
+
+    .form {
+        margin-bottom: 55px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        background-color: $concrete;
+        border: 1px solid $grey;
+        @include borderRadius(3px);
+        &:hover {
+            background-color: $turquoise;
+            @include transition(0.5s);
+        }
     }
 }
