@@ -45,6 +45,8 @@
 
 -Test out WuFoo Forms
 
+* --- Pricing Section --- *
+
 * --- Footer --- *
 
 -Will have social media icons?

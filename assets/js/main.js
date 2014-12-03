@@ -8,6 +8,7 @@ $(window).load(function() {
     /*
 
   /* Backstretch Init */
+
   var bs = $(".backstretch-slider");
 
   bs.backstretch([
@@ -17,12 +18,29 @@ $(window).load(function() {
     "assets/img/slide4.jpg"
   ], {duration: 4000, fade: "normal"});
 
-  /* Set height of div is Window viewport*/
+  /* Set height of div is Window viewport if it exists*/
 
-  bs.height($(window).height() - (bs.offset().top));
+  if(bs.length){
+    console.log("hi");
+    bs.height($(window).height() - (bs.offset().top));
+  }
 
   /* WOW.js Init */
 
   new WOW().init();
+
+  /* Sticky Navi */
+
+var  mn = $(".main-nav");
+  mns = "main-nav-scrolled";
+  hdr = $('header').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
 
 });

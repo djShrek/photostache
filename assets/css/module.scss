@@ -1,3 +1,11 @@
+/* --- Main Logo -- */
+
+.logo {
+    display: block;
+    padding-top: 40px;
+}
+
+
 /* --- Mavigation Bar --- */
 
 .navbar {
@@ -16,6 +24,43 @@
 .navbar-nav.nav-justified > li{
     float: none;
 }
+
+.main-nav {
+    background: #fff;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    position: relative;
+    text-align: center;
+    a {
+     color: #555555;
+     font-family: $secondaryFont;
+     font-size: 1.1em; 
+     letter-spacing: 2px;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #444135;
+     display: inline-block;
+     padding: 10px 20px 10px 0;
+     margin: 20px 10px;
+     border-right: 1px solid #555555;
+     &:hover {
+        color: $turquoise;
+        @include transition(0.5s);
+     }
+     &:last-child {
+        border: none;
+     }
+    }
+}
+
+.main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
 
 /* --- Flexslider --- */
 
@@ -60,9 +105,6 @@
     textarea {
         height: 100px;
     }
-    header {
-        text-align: center;
-    }
     h2 {
         font-family: $primaryFont;
     }
@@ -84,3 +126,4 @@
         }
     }
 }
+

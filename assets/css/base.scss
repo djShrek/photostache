@@ -3,6 +3,11 @@
 $turquoise: #1bc7a5;
 $grey: #ecf0f1;
 $concrete: #95a5a6;
+$midnightBlue: #2c3e50;
+
+$primaryColor: $turquoise;
+$secondaryColor: $midnightBlue;
+$tertiaryColor: $concrete;
 
 /* --- FONTS --- */
 
@@ -58,10 +63,37 @@ $secondaryFont: 'Montserrat', sans-serif;
 
 /*--- Base Styles ---*/
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 section {
     margin: 50px 0;
 }
+
+header {
+    font-family: $primaryFont;
+    font-size: 50px;
+    text-align: center;
+    /* Start here */ 
+    height: 150px;
+    /*
+    position: fixed;
+    width: 100%;
+    top: 0;
+    */
+}
+
+a {
+    &:hover {
+        color: $turquoise;
+        @include transition(2s);
+    }
+}
+
+

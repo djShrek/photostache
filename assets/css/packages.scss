@@ -1,0 +1,98 @@
+.plan-info {
+    display: block;
+    height: auto;
+    .plan {         
+        border: 1px solid $concrete;
+        width: 320px;
+        margin: 30px;
+        padding: 0;
+        @include borderRadius(5px);
+        .plan-title {
+            font-family: $primaryFont;
+            letter-spacing: 2px;
+            color: white;
+            background-color: $midnightBlue;
+            margin: 0;
+            padding-top: 25px;
+            padding-left: 65px;
+            height: 75px;
+        }
+        /*
+        .plan-price {
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+            line-spacing: 10px;
+            background-color: $turquoise;
+            height: 130px;
+            width: 130px;
+            margin: 50px 100px 50px 90px;
+            padding-top: 38px;
+            border-radius: 50%;
+        }
+        */
+        ul {
+            margin: 0;
+        }
+        .plan-price {
+            font-size: 50px;
+            font-weight: 700;
+            line-spacing: 4px;
+            color: white;
+            background-color: $turquoise;
+            height: 120px;
+            .plan-price-inner {
+                position: absolute;
+                top: 90px;
+                left: 110px;
+            }
+            span {
+                position: relative;
+                bottom: 18px;
+                right: 3px;
+                font-size: 20px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+            .primary-price {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .secondary-price {
+                font-size: 14px;
+                font-style: italic;
+            }
+        }
+        .plan-features {
+            li {
+                text-align: center;
+                padding: 10px;
+                border-top: 1px dashed $concrete;
+                font-weight: 500;
+                &:first-child {
+                    border-top: none;
+                }
+                &:last-child {
+                    border-bottom: 1px dotted $concrete;
+                }
+            }
+        }
+        .plan-btn {
+            font-family: $primaryFont;
+            font-size: 20px;
+            text-align: center;
+            border: none;
+            color: white;
+            background-color: $midnightBlue;
+            height: 50px;
+            padding-top: 10px;
+            text-decoration: none;
+            &:hover {
+                background-color: $turquoise;
+                @include transition(1s);
+            }
+        }
+    }
+}   

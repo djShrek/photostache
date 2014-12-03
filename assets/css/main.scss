@@ -1,0 +1,68 @@
+.main-section {
+    position: relative;
+}
+
+
+/*--- SECTION 2 AKA ABOUT ---*/
+
+#section2 {
+    .gaykim {
+        margin-bottom: 50px;
+    }
+}
+
+
+/*--- SECTION 3 AKA TESTIMONIALS ---*/
+ 
+#section3 {
+    img {
+        height: 150px;
+        width: 175px;
+        border: 2px solid black;
+    }
+}
+
+
+/*--- SECTION 4 AKA PHOTO GALLERY ---*/
+
+#section4 {
+
+}
+
+/*--- SECTION 5 AKA CONTACT FORM ---*/
+
+#section5 {
+    background-color: $turquoise;
+    display: block;
+    min-height: 100%;
+    margin-bottom: 0 !important;
+    h1 {
+        font-family: $primaryFont;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-align: center;
+        margin: 55px 0 !important;
+    }
+    h3 {
+        color: white;
+        font-family: $secondaryFont;
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .form {
+        margin-bottom: 55px;
+    }
+    .contact-form-header {
+        text-align: center;
+    }
+    .contact-info-section {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+footer {
+    background-color: $midnightBlue;
+}
