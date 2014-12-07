@@ -14,6 +14,15 @@
 
 -Installed lightbox2 for basic photo gallery
 
+12/4/14
+
+Some things I have to fix:
+1. Resize the gallery image if its too small on load
+2. Add some more animations to other parts of the site
+3. Change gallery to simple light box so it doesn't take too long to load
+4. Work on Footer
+5. Change contact form on contact.html to be full width and secondary full-width contact information like StackCommerce
+
 
 *** Main Page ***
 

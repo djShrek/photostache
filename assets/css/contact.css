@@ -1,21 +1,19 @@
 /*
 Syntax error: Undefined variable: "$turquoise".
-        on line 12 of ./assets/css/faq.scss
+        on line 4 of ./assets/css/contact.scss
 
-7:     span, .fa {
-8:         font-size: 20px;
-9:         font-weight: 500;
-10:     }
-11:     span {
-12:         color: $turquoise;
-13:     }
-14:     p {
-15:         background-color: $clouds;
-16:         padding: 25px;
-17:         margin: 20px 0;
+1: #contact-main-section {
+2:     margin: 0;
+3:         #contact-main-section {
+4:         background-color: $turquoise;
+5:         display: block;
+6:         min-height: 100%;
+7:         margin-bottom: 0 !important;
+8:         h1 {
+9:             font-family: $primaryFont;
 
 Backtrace:
-./assets/css/faq.scss:12
+./assets/css/contact.scss:4
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -77,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$turquoise\".\A         on line 12 of ./assets/css/faq.scss\A \A 7:     span, .fa {\A 8:         font-size: 20px;\A 9:         font-weight: 500;\A 10:     }\A 11:     span {\A 12:         color: $turquoise;\A 13:     }\A 14:     p {\A 15:         background-color: $clouds;\A 16:         padding: 25px;\A 17:         margin: 20px 0;"; }
+  content: "Syntax error: Undefined variable: \"$turquoise\".\A         on line 4 of ./assets/css/contact.scss\A \A 1: #contact-main-section {\A 2:     margin: 0;\A 3:         #contact-main-section {\A 4:         background-color: $turquoise;\A 5:         display: block;\A 6:         min-height: 100%;\A 7:         margin-bottom: 0 !important;\A 8:         h1 {\A 9:             font-family: $primaryFont;"; }
