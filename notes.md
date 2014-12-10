@@ -22,6 +22,7 @@ Some things I have to fix:
 3. Change gallery to simple light box so it doesn't take too long to load
 4. Work on Footer
 5. Change contact form on contact.html to be full width and secondary full-width contact information like StackCommerce
+6. The site has to be responsively designed
 
 
 *** Main Page ***

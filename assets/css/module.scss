@@ -127,3 +127,31 @@
     }
 }
 
+/* ---- Contact Page Contact-Form ----*/
+
+.contactPage-contact-form {
+    i {
+        font-size: 20px;
+        background-color: white;
+        padding: 17px;
+        margin-right: 50px;
+        @include borderRadius(5px);
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    input {
+        height: 54px;
+        padding: 2px;
+        padding-left: 15px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .row {
+        border-collapse: separate;
+    }
+    .contact-form-header {
+        margin-bottom: 50px;
+    }
+    
+}
+
