@@ -73,24 +73,27 @@ $secondaryFont: 'Montserrat', sans-serif;
 html, body {
     height: 100%;
     margin: 0;
-    padding-top: 85px;
+}
+
+body {
+    margin: 0;
 }
 
 section {
-    margin: 50px 0;
+    margin: 150px 0 50px 0;
 }
 
 header {
     font-family: $primaryFont;
     font-size: 50px;
     text-align: center;
-    /* Start here */ 
     height: 150px;
-
+    /* Start here */ 
+    /*
     position: fixed;
     width: 100%;
     top: 0;
-
+    */
 }
 
 a {

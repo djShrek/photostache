@@ -8,21 +8,25 @@
 
 html, body {
   height: 100%;
-  margin: 0;
-  padding-top: 85px; }
+  margin: 0; }
+
+body {
+  margin: 0; }
 
 section {
-  margin: 50px 0; }
+  margin: 150px 0 50px 0; }
 
 header {
   font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
-  /* Start here */
   height: 150px;
+  /* Start here */
+  /*
   position: fixed;
   width: 100%;
-  top: 0; }
+  top: 0;
+  */ }
 
 a:hover {
   color: #1bc7a5;
@@ -54,7 +58,8 @@ a:hover {
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: -80px; }
   .main-nav a {
     color: #555555;
     font-family: "Montserrat", sans-serif;
