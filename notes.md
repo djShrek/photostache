@@ -24,6 +24,10 @@ Some things I have to fix:
 5. Change contact form on contact.html to be full width and secondary full-width contact information like StackCommerce
 6. The site has to be responsively designed
 
+12/10/14
+
+1. For front page, load jQuery first, then load content.
+
 
 *** Main Page ***
 

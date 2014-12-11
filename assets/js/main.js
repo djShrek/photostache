@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(document).ready(function() {
   
   /* Flexslider Init */
   /*
@@ -10,6 +10,9 @@ $(window).load(function() {
   /* Backstretch Init */
 
   var bs = $(".backstretch-slider");
+  var mn = $(".main-nav");
+  var mns = "main-nav-scrolled";
+  var hdr = $('header').height();
 
   bs.backstretch([
     "assets/img/slide1.jpg",
@@ -24,15 +27,20 @@ $(window).load(function() {
     bs.height($(window).height() - (bs.offset().top));
   }
 
+  function resizeWindow(e){
+    var slideshowHeight = $(window).height() - $('#header').outerHeight();
+    if( $('body').length > 0 ) {
+      $('#backstretch-slider, .backstretch-slider').height(slideshowHeight);
+    }
+  }
+  $(window).bind('resize', resizeWindow);
+  resizeWindow();
+
   /* WOW.js Init */
 
   new WOW().init();
 
   /* Sticky Navi */
-
-var  mn = $(".main-nav");
-  mns = "main-nav-scrolled";
-  hdr = $('header').height();
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
