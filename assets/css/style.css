@@ -354,6 +354,20 @@ footer {
     margin-bottom: 20px;
     padding-bottom: 10px; }
   #contact-main-section i {
-    background-color: white;
-    height: auto;
-    width: auto; }
+    background-color: white; }
+  #contact-main-section textarea {
+    font-size: 20px; }
+  #contact-main-section .input-group-addon {
+    background-color: white; }
+  #contact-main-section .submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+    #contact-main-section .submit-btn:hover {
+      background-color: #1bc7a5;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }

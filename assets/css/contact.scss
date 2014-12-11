@@ -22,10 +22,21 @@
     }
     i {
         background-color: white;
-        height: auto;
-        width: auto;
     }
-    .input-groups {
-        
+    textarea {
+        font-size: 20px;
+    }
+    .input-group-addon {
+        background-color: white;
+    }
+    .submit-btn {
+        width: 100%;
+
+        margin-top: 20px;
+        @include borderRadius(3px);
+        &:hover {
+            background-color: $turquoise;
+            @include transition(0.5s);
+        }
     }
 }

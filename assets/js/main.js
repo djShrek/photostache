@@ -21,7 +21,6 @@ $(window).load(function() {
   /* Set height of div is Window viewport if it exists*/
 
   if(bs.length){
-    console.log("hi");
     bs.height($(window).height() - (bs.offset().top));
   }
 
@@ -29,7 +28,7 @@ $(window).load(function() {
 
   new WOW().init();
 
-  /* Sticky Navi */
+  /* Sticky Navigation */
 
 var  mn = $(".main-nav");
   mns = "main-nav-scrolled";
