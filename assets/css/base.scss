@@ -73,6 +73,7 @@ $secondaryFont: 'Montserrat', sans-serif;
 html, body {
     height: 100%;
     margin: 0;
+    padding-top: 85px;
 }
 
 section {
@@ -85,11 +86,11 @@ header {
     text-align: center;
     /* Start here */ 
     height: 150px;
-    /*
+
     position: fixed;
     width: 100%;
     top: 0;
-    */
+
 }
 
 a {

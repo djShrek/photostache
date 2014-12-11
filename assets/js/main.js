@@ -28,7 +28,7 @@ $(window).load(function() {
 
   new WOW().init();
 
-  /* Sticky Navigation */
+  /* Sticky Navi */
 
 var  mn = $(".main-nav");
   mns = "main-nav-scrolled";
