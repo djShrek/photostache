@@ -1,12 +1,4 @@
 $(document).ready(function() {
-  
-  /* Flexslider Init */
-  /*
-  $('.flexslider').flexslider({
-    animation: "fade"
-  });
-    /*
-
   /* Backstretch Init */
 
   var bs = $(".backstretch-slider");
@@ -42,13 +34,13 @@ $(document).ready(function() {
 
   /* Sticky Navi */
 
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns);
-  } else {
-    mn.removeClass(mns);
-  }
-});
+  $(window).scroll(function() {
+    if( $(this).scrollTop() > hdr ) {
+      mn.addClass(mns);
+    } else {
+      mn.removeClass(mns);
+    }
+  });
 
  /* Nano Gallery */
 

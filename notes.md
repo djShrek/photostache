@@ -17,11 +17,12 @@
 12/4/14
 
 Some things I have to fix:
-1. Resize the gallery image if its too small on load
-2. Add some more animations to other parts of the site
+1. Resize the gallery image if its too small on load -- Done* 
+2. Add some more animations to other parts of the site -- Done*
 3. Change gallery to simple light box so it doesn't take too long to load
 4. Work on Footer
-5. Change contact form on contact.html to be full width and secondary full-width contact information like StackCommerce
+5. Change contact form on contact.html to be full width and secondary full-width contact information like StackCommerce 
+   ^^Done
 6. The site has to be responsively designed
 
 12/10/14
@@ -67,5 +68,9 @@ Some things I have to fix:
 
 * --- Future Notes --- *
 
--Each section fades in 
+-Each section fades in - Working on this
 -Responsive design
+
+
+
+

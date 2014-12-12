@@ -97,10 +97,35 @@ header {
     */
 }
 
+footer {
+    color: white;
+    background-color: $midnightBlue;
+    height: 200px;
+    h1 {
+        font-family: $primaryFont;
+    }
+    a {
+        color: white;
+    }
+    span {
+        font-size: 45px;
+        display: inline-block;
+        margin: 0 20px 0 20px;
+    }
+    .footer-social-media {
+      margin: 0 0 20px 0;
+      padding-top: 20px;
+      .footer-btn {
+        margin-top: 30px;
+        margin-right: 15px;
+      }
+    }
+}
+
 a {
     &:hover {
         color: $turquoise;
-        @include transition(2s);
+        @include transition(1s);
     }
 }
 
