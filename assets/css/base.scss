@@ -12,6 +12,7 @@ $greenSea: #16a085;
 $primaryColor: $turquoise;
 $secondaryColor: $midnightBlue;
 $tertiaryColor: $concrete;
+$fourthColor: $clouds;
 
 /* --- FONTS --- */
 
@@ -81,7 +82,7 @@ body {
 }
 
 section {
-    margin: 150px 0 50px 0;
+    margin: 25px 0 25px 0;
 }
 
 header {
@@ -123,6 +124,7 @@ footer {
 }
 
 a {
+    
     &:hover {
         color: $turquoise;
         @include transition(1s);

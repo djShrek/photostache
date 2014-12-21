@@ -1,5 +1,5 @@
 /*
-Syntax error: Undefined variable: "$turquoise".
+Syntax error: Undefined variable: "$primaryColor".
         on line 12 of ./assets/css/faq.scss
 
 7:     span, .fa {
@@ -7,10 +7,10 @@ Syntax error: Undefined variable: "$turquoise".
 9:         font-weight: 500;
 10:     }
 11:     span {
-12:         color: $turquoise;
+12:         color: $primaryColor;
 13:     }
 14:     p {
-15:         background-color: $clouds;
+15:         background-color: $fourthColor;
 16:         padding: 25px;
 17:         margin: 20px 0;
 
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$turquoise\".\A         on line 12 of ./assets/css/faq.scss\A \A 7:     span, .fa {\A 8:         font-size: 20px;\A 9:         font-weight: 500;\A 10:     }\A 11:     span {\A 12:         color: $turquoise;\A 13:     }\A 14:     p {\A 15:         background-color: $clouds;\A 16:         padding: 25px;\A 17:         margin: 20px 0;"; }
+  content: "Syntax error: Undefined variable: \"$primaryColor\".\A         on line 12 of ./assets/css/faq.scss\A \A 7:     span, .fa {\A 8:         font-size: 20px;\A 9:         font-weight: 500;\A 10:     }\A 11:     span {\A 12:         color: $primaryColor;\A 13:     }\A 14:     p {\A 15:         background-color: $fourthColor;\A 16:         padding: 25px;\A 17:         margin: 20px 0;"; }

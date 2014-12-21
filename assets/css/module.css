@@ -1,21 +1,21 @@
 /*
 Syntax error: Undefined variable: "$secondaryFont".
-        on line 38 of ./assets/css/module.scss
+        on line 37 of ./assets/css/module.scss
 
-33:     position: relative;
-34:     text-align: center;
-35:     margin-bottom: -80px;
-36:     a {
-37:      color: #555555;
-38:      font-family: $secondaryFont;
-39:      font-size: 1.1em; 
-40:      letter-spacing: 2px;
-41:      text-decoration: none;
-42:      font-weight: bold;
-43:      text-transform: uppercase;
+32:     position: relative;
+33:     text-align: center;
+34:     margin-bottom: -80px;
+35:     a {
+36:      color: #555555;
+37:      font-family: $secondaryFont;
+38:      font-size: 1.1em; 
+39:      letter-spacing: 2px;
+40:      text-decoration: none;
+41:      font-weight: bold;
+42:      text-transform: uppercase;
 
 Backtrace:
-./assets/css/module.scss:38
+./assets/css/module.scss:37
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 38 of ./assets/css/module.scss\A \A 33:     position: relative;\A 34:     text-align: center;\A 35:     margin-bottom: -80px;\A 36:     a {\A 37:      color: #555555;\A 38:      font-family: $secondaryFont;\A 39:      font-size: 1.1em; \A 40:      letter-spacing: 2px;\A 41:      text-decoration: none;\A 42:      font-weight: bold;\A 43:      text-transform: uppercase;"; }
+  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 37 of ./assets/css/module.scss\A \A 32:     position: relative;\A 33:     text-align: center;\A 34:     margin-bottom: -80px;\A 35:     a {\A 36:      color: #555555;\A 37:      font-family: $secondaryFont;\A 38:      font-size: 1.1em; \A 39:      letter-spacing: 2px;\A 40:      text-decoration: none;\A 41:      font-weight: bold;\A 42:      text-transform: uppercase;"; }

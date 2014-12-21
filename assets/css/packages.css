@@ -1,12 +1,12 @@
 /*
-Syntax error: Undefined variable: "$concrete".
+Syntax error: Undefined variable: "$tertiaryColor".
         on line 5 of ./assets/css/packages.scss
 
 1: .plan-info {
 2:     display: block;
 3:     height: auto;
 4:     .plan {         
-5:         border: 1px solid $concrete;
+5:         border: 1px solid $tertiaryColor;
 6:         width: 320px;
 7:         margin: 30px;
 8:         padding: 0;
@@ -80,4 +80,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$concrete\".\A         on line 5 of ./assets/css/packages.scss\A \A 1: .plan-info {\A 2:     display: block;\A 3:     height: auto;\A 4:     .plan {         \A 5:         border: 1px solid $concrete;\A 6:         width: 320px;\A 7:         margin: 30px;\A 8:         padding: 0;\A 9:         @include borderRadius(5px);\A 10:         .plan-title {"; }
+  content: "Syntax error: Undefined variable: \"$tertiaryColor\".\A         on line 5 of ./assets/css/packages.scss\A \A 1: .plan-info {\A 2:     display: block;\A 3:     height: auto;\A 4:     .plan {         \A 5:         border: 1px solid $tertiaryColor;\A 6:         width: 320px;\A 7:         margin: 30px;\A 8:         padding: 0;\A 9:         @include borderRadius(5px);\A 10:         .plan-title {"; }

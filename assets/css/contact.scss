@@ -1,7 +1,7 @@
 
 #contact-main-section {
     margin: 80px 0 0 0;
-    background-color: $turquoise;
+    background-color: $primaryColor;
     display: block;
     min-height: 100%;
     margin-bottom: 0 !important;
@@ -22,7 +22,7 @@
     }
     i {
         background-color: white;
-        color: $midnightBlue;
+        color: $secondaryColor;
     }
     textarea {
         font-size: 20px;
@@ -41,11 +41,11 @@
         font-size: 20px;
         width: 100%;
         margin-top: 20px;
-        background-color: $midnightBlue;
+        background-color: $secondaryColor;
         @include borderRadius(3px);
         &:hover {
-            background-color: $turquoise;
-            border: 1px solid $turquoise;
+            background-color: $primaryColor;
+            border: 1px solid $primaryColor;
             @include transition(0.5s);
         }
     }

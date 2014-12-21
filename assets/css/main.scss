@@ -2,6 +2,9 @@
     position: relative;
 }
 
+/*--- SECTION 1 ---*/
+
+
 
 /*--- SECTION 2 AKA ABOUT ---*/
 
@@ -22,7 +25,7 @@
     }
     .testimonial {
         padding: 20px;
-        background-color: $clouds;
+        background-color: $fourthColor;
 
     }
 }
@@ -37,7 +40,7 @@
 /*--- SECTION 5 AKA CONTACT FORM ---*/
 
 #section5 {
-    background-color: $turquoise;
+    background-color: $primaryColor;
     display: block;
     min-height: 100%;
     margin-bottom: 0 !important;
@@ -56,6 +59,13 @@
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
+    a {
+        color: white;
+        &:hover {
+            color: $secondaryColor;
+            @include transition(2s);
+        }
+    }
     .form {
         margin-bottom: 55px;
     }
@@ -66,8 +76,5 @@
         color: white;
         font-size: 30px;
     }
-}
 
-footer {
-    background-color: $midnightBlue;
 }
