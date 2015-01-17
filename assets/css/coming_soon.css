@@ -11,8 +11,8 @@ Syntax error: Undefined variable: "$primaryFont".
 25:         color: white;
 26:     }
 27:     .email-form {
-28: 
-29:         margin: 50px auto 40px auto;
+28:         margin: 50px auto 40px auto;
+29:     }
 
 Backtrace:
 ./assets/css/coming_soon.scss:24
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$primaryFont\".\A         on line 24 of ./assets/css/coming_soon.scss\A \A 19: .email-main {\A 20:     background-color: $peterRiver;\A 21:     width: 100%;\A 22:     padding: 30px;\A 23:     h1, h2 {\A 24:         font-family: $primaryFont;\A 25:         color: white;\A 26:     }\A 27:     .email-form {\A 28: \A 29:         margin: 50px auto 40px auto;"; }
+  content: "Syntax error: Undefined variable: \"$primaryFont\".\A         on line 24 of ./assets/css/coming_soon.scss\A \A 19: .email-main {\A 20:     background-color: $peterRiver;\A 21:     width: 100%;\A 22:     padding: 30px;\A 23:     h1, h2 {\A 24:         font-family: $primaryFont;\A 25:         color: white;\A 26:     }\A 27:     .email-form {\A 28:         margin: 50px auto 40px auto;\A 29:     }"; }

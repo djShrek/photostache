@@ -25,7 +25,6 @@ $waxFlower: #F1A9A0;
         color: white;
     }
     .email-form {
-
         margin: 50px auto 40px auto;
     }
 }
@@ -36,6 +35,10 @@ $waxFlower: #F1A9A0;
             width: 100%;
         }
     }
+    [class*="col-"]{
+      margin-bottom: 15px;
+    }
+
 }
 
 #saveForm {
