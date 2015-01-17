@@ -71,6 +71,10 @@ Some things I have to fix:
 -Each section fades in - Working on this
 -Responsive design
 
+Questions:
 
+What is the goal of your website?
+What actions do you want your clients to take?
+What message do you want to convey to your visitors?
 
 

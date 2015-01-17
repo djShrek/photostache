@@ -19,8 +19,6 @@
  
 #section3 {
     img {
-        height: 150px;
-        width: 175px;
         border: 2px solid black;
     }
     .testimonial {
@@ -29,6 +27,8 @@
 
     }
 }
+
+
 
 
 /*--- SECTION 4 AKA PHOTO GALLERY ---*/
@@ -74,7 +74,11 @@
     }
     .contact-info-section {
         color: white;
-        font-size: 30px;
+        width: 100%;
     }
-
+    .contact-info-single {
+        i, span {
+            font-size: 1.5em;
+        }
+    }
 }

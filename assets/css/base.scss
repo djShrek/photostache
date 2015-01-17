@@ -77,10 +77,6 @@ html, body {
     margin: 0;
 }
 
-body {
-    margin: 0;
-}
-
 section {
     margin: 25px 0 25px 0;
 }
@@ -101,7 +97,7 @@ header {
 footer {
     color: white;
     background-color: $midnightBlue;
-    height: 200px;
+
     h1 {
         font-family: $primaryFont;
     }
@@ -128,6 +124,48 @@ a {
     &:hover {
         color: $turquoise;
         @include transition(1s);
+    }
+}
+
+@media screen and (min-width: 401px) {
+    #section3 {
+        img {
+            width: 175px;
+            height: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+        .main-contact-form {
+            width: 100%;
+        }
+        .map {
+            display: none;
+        }
+
+    }
+
+@media screen and (max-width: 400px) {
+    header {
+        color: black;
+    }
+    nav {
+         display: none;
+    }
+    .map {
+        display: none;
+    }
+    .testimonial-main {
+        width: 350px;
+        img {
+            height: 80px;
+            width: 75px;
+        }
+    }
+    .main-contact-form, .map-section {
+        width: 100%;
     }
 }
 

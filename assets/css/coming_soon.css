@@ -1,21 +1,21 @@
 /*
-Syntax error: Undefined variable: "$fourthColor".
-        on line 26 of ./assets/css/main.scss
+Syntax error: Undefined variable: "$primaryFont".
+        on line 24 of ./assets/css/coming_soon.scss
 
-21:     img {
-22:         border: 2px solid black;
-23:     }
-24:     .testimonial {
-25:         padding: 20px;
-26:         background-color: $fourthColor;
-27: 
-28:     }
-29: }
-30: 
-31: 
+19: .email-main {
+20:     background-color: $peterRiver;
+21:     width: 100%;
+22:     padding: 30px;
+23:     h1, h2 {
+24:         font-family: $primaryFont;
+25:         color: white;
+26:     }
+27:     .email-form {
+28: 
+29:         margin: 50px auto 40px auto;
 
 Backtrace:
-./assets/css/main.scss:26
+./assets/css/coming_soon.scss:24
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$fourthColor\".\A         on line 26 of ./assets/css/main.scss\A \A 21:     img {\A 22:         border: 2px solid black;\A 23:     }\A 24:     .testimonial {\A 25:         padding: 20px;\A 26:         background-color: $fourthColor;\A 27: \A 28:     }\A 29: }\A 30: \A 31: "; }
+  content: "Syntax error: Undefined variable: \"$primaryFont\".\A         on line 24 of ./assets/css/coming_soon.scss\A \A 19: .email-main {\A 20:     background-color: $peterRiver;\A 21:     width: 100%;\A 22:     padding: 30px;\A 23:     h1, h2 {\A 24:         font-family: $primaryFont;\A 25:         color: white;\A 26:     }\A 27:     .email-form {\A 28: \A 29:         margin: 50px auto 40px auto;"; }

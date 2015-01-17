@@ -101,7 +101,7 @@
 .contact-form {
     background-color: white;
     padding: 50px;
-    width: 550px;
+    /* width: 550px; */
     @include borderRadius(3px);
     input, textarea {
         font-weight: 500;
