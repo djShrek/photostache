@@ -1,0 +1,167 @@
+/* --- Main Logo -- */
+
+.logo {
+    display: block;
+    padding-top: 40px;
+}
+
+
+/* --- Mavigation Bar --- */
+
+.navbar {
+    background: white;
+    margin-bottom: 0;
+    ul {
+        li {
+            border-right: 1px solid #ddd;
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}
+
+.navbar-nav.nav-justified > li{
+    float: none;
+}
+
+.main-nav {
+    background: #fff;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    position: relative;
+    text-align: center;
+    margin-bottom: -80px;
+    a {
+     color: #555555;
+     font-family: $secondaryFont;
+     font-size: 1.1em; 
+     letter-spacing: 2px;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #444135;
+     display: inline-block;
+     padding: 10px 20px 10px 0;
+     margin: 20px 10px;
+     border-right: 1px solid #555555;
+     &:hover {
+        color: $primaryColor;
+        @include transition(0.5s);
+     }
+     &:last-child {
+        border: none;
+     }
+    }
+}
+
+.main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+
+/* --- Flexslider --- */
+
+/* --- Backstretch ---*/
+
+.backstretch-slider {
+    margin-top: 50px;
+    margin-bottom: -75px;
+}
+
+/* --- Section Header --- */
+
+.section-header {
+    font-family: $secondaryFont;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    padding: 40px 0;
+    border-top: 1px solid $primaryColor;
+    border-bottom: 1px solid $primaryColor;
+    &:first-child {
+        margin-top: 150px;
+    }
+}
+
+/* --- Lightbox --- */
+
+.gallery {
+    margin: 5px 0;
+}
+
+/* --- WuFoo Form ---*/
+
+.contact-form {
+    background-color: white;
+    padding: 50px;
+    /* width: 550px; */
+    @include borderRadius(3px);
+    input, textarea {
+        font-weight: 500;
+        border: none;
+        border-bottom: 1px solid $primaryColor;
+        @include borderRadius(0);
+        @include boxShadow(inset 0 0 0 rgba(0,0,0,0));
+        outline: 0;
+        background-color: transparent;
+    }
+    textarea {
+        height: 100px;
+    }
+    h2 {
+        font-family: $primaryFont;
+    }
+    .form-group {
+        margin: 20px 0;
+    }
+    .form-control {
+        height: 40px;
+    }
+    .submit-btn {
+        width: 100%;
+        background-color: $tertiaryColor;
+        border: 1px solid $grey;
+        margin-top: 20px;
+        @include borderRadius(3px);
+        &:hover {
+            background-color: $primaryColor;
+            @include transition(0.5s);
+        }
+    }
+}
+
+/* ---- Contact Page Contact-Form ----*/
+
+.contactPage-contact-form {
+    i {
+        font-size: 20px;
+        background-color: white;
+        padding: 17px;
+        margin-right: 50px;
+        @include borderRadius(5px);
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    input {
+        height: 54px;
+        padding: 2px;
+        padding-left: 15px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .row {
+        border-collapse: separate;
+    }
+    .contact-form-header {
+        margin-bottom: 50px;
+    }
+    
+}
+
