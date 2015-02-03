@@ -53,18 +53,18 @@ Some things I have to fix:
 
 * --- Gallery --- *
 
--Gallery images should display special links on hover
--Images should have a grey tint on hover
+-Gallery images should display special links on hover Done
+-Images should have a grey tint on hover Done 
 
 * --- Contact Section --- *
 
--Test out WuFoo Forms
+-Test out WuFoo Forms Done
 
 * --- Pricing Section --- *
 
 * --- Footer --- *
 
--Will have social media icons?
+-Will have social media icons? Done
 
 * --- Future Notes --- *
 
@@ -76,5 +76,11 @@ Questions:
 What is the goal of your website?
 What actions do you want your clients to take?
 What message do you want to convey to your visitors?
+
+* -- 1/30/15 Notes -- *
+
+-Add icons of a stache, camera, and, kanye glasses props? 
+-Minimum number of pictures needed? What kind of pictures? 
+
 
 

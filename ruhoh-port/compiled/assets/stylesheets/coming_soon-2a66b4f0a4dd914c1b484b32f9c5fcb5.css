@@ -1,21 +1,21 @@
 /*
-Syntax error: Undefined variable: "$secondaryFont".
-        on line 37 of ./assets/css/module.scss
+Syntax error: Undefined variable: "$primaryFont".
+        on line 24 of ./ruhoh-port/compiled/assets/stylesheets/coming_soon-2a66b4f0a4dd914c1b484b32f9c5fcb5.scss
 
-32:     position: relative;
-33:     text-align: center;
-34:     margin-bottom: -80px;
-35:     a {
-36:      color: #555555;
-37:      font-family: $secondaryFont;
-38:      font-size: 1.1em; 
-39:      letter-spacing: 2px;
-40:      text-decoration: none;
-41:      font-weight: bold;
-42:      text-transform: uppercase;
+19: .email-main {
+20:     background-color: $peterRiver;
+21:     width: 100%;
+22:     padding: 30px;
+23:     h1, h2 {
+24:         font-family: $primaryFont;
+25:         color: white;
+26:     }
+27:     .email-form {
+28:         margin: 50px auto 40px auto;
+29:     }
 
 Backtrace:
-./assets/css/module.scss:37
+./ruhoh-port/compiled/assets/stylesheets/coming_soon-2a66b4f0a4dd914c1b484b32f9c5fcb5.scss:24
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -65,16 +65,19 @@ Backtrace:
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `each'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:393:in `on_file_changed'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:248:in `block in watch'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `call'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin/compiler.rb:221:in `watch'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/plugin.rb:108:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/exec.rb:509:in `watch_or_update'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/exec.rb:346:in `process_result'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/exec.rb:43:in `parse'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/exec.rb:22:in `parse!'
+/usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p547/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p547/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-1.9.3-p547/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-1.9.3-p547/bin/ruby_executable_hooks:15:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 37 of ./assets/css/module.scss\A \A 32:     position: relative;\A 33:     text-align: center;\A 34:     margin-bottom: -80px;\A 35:     a {\A 36:      color: #555555;\A 37:      font-family: $secondaryFont;\A 38:      font-size: 1.1em; \A 39:      letter-spacing: 2px;\A 40:      text-decoration: none;\A 41:      font-weight: bold;\A 42:      text-transform: uppercase;"; }
+  content: "Syntax error: Undefined variable: \"$primaryFont\".\A         on line 24 of ./ruhoh-port/compiled/assets/stylesheets/coming_soon-2a66b4f0a4dd914c1b484b32f9c5fcb5.scss\A \A 19: .email-main {\A 20:     background-color: $peterRiver;\A 21:     width: 100%;\A 22:     padding: 30px;\A 23:     h1, h2 {\A 24:         font-family: $primaryFont;\A 25:         color: white;\A 26:     }\A 27:     .email-form {\A 28:         margin: 50px auto 40px auto;\A 29:     }"; }
