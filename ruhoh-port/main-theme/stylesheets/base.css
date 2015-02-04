@@ -1,4 +1,6 @@
 /* --- COLORS --- */
+/* Photostache Colors */
+/* End */
 /* --- FONTS --- */
 /* --- COLORS END ---*/
 /* --- Mixins ---*/
@@ -16,14 +18,7 @@ section {
 header {
   font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
   font-size: 50px;
-  text-align: center;
-  height: 150px;
-  /* Start here */
-  /*
-  position: fixed;
-  width: 100%;
-  top: 0;
-  */ }
+  text-align: center; }
 
 footer {
   color: white;

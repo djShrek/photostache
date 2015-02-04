@@ -8,20 +8,14 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
      {{# stylesheets.load }}
-      lib/reset.css
-      lib/bootstrap.min.css
-      lib/lightbox.css
-      lib/flexslider.css
-      lib/animate.css
-      lib/nanogallery.min.css
-      lib/nanogallery_light.min.css
-      lib/nanogallery_clean.min.css
       style.css
     {{/ stylesheets.load }}
 </head>
 <body>
         <header id="header" class="header">
-                <span class="logo">Kim Lee Gay Cupcake Company</span>
+            <div class="logo-wrapper">
+                <img class="img-responsive" src="{{urls.media}}/logo.png" alt="Photostache Photobooth Logo">
+            </div>
         </header>
 
          <nav class="navbar navbar-default main-nav" role="navigation">
@@ -34,6 +28,7 @@
         </nav>
 
         <div id="content"> {{{ content }}} </div>
+
 
         <footer>
             <div class="container">
@@ -69,6 +64,7 @@
     lib/jquery.backstretch.min.js
     lib/jquery.nanogallery.min.js
     lib/wow.min.js
+    lib/jquery-anystretch/jquery.anystretch.min.js
     main.js
 {{/ javascripts.load }}
   

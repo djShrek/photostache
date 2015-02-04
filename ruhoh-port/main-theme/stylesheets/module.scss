@@ -1,16 +1,25 @@
 /* --- Main Logo -- */
 
-.logo {
-    display: block;
-    padding-top: 40px;
+.logo-wrapper {
+    img {
+        width: auto;
+        height: 24.1875rem;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
 }
 
 
 /* --- Mavigation Bar --- */
 
-.navbar {
+.main-nav {
     background: white;
-    margin-bottom: 0;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    position: relative;
+    text-align: center;
+    margin-bottom: -80px;
+
     ul {
         li {
             border-right: 1px solid #ddd;
@@ -19,39 +28,29 @@
             }
         }
     }
-}
-
-.navbar-nav.nav-justified > li{
-    float: none;
-}
-
-.main-nav {
-    background: #fff;
-    z-index: 150;
-    box-shadow: 0 2px 3px rgba(0,0,0,.4);
-    position: relative;
-    text-align: center;
-    margin-bottom: -80px;
     a {
-     color: #555555;
-     font-family: $secondaryFont;
-     font-size: 1.1em; 
-     letter-spacing: 2px;
-     text-decoration: none;
-     font-weight: bold;
-     text-transform: uppercase;
-     color: #444135;
-     display: inline-block;
-     padding: 10px 20px 10px 0;
-     margin: 20px 10px;
-     border-right: 1px solid #555555;
-     &:hover {
-        color: $primaryColor;
-        @include transition(0.5s);
-     }
-     &:last-child {
-        border: none;
-     }
+         color: #555555;
+         font-family: $secondaryFont;
+         font-size: 1.1em; 
+         letter-spacing: 2px;
+         text-decoration: none;
+         font-weight: bold;
+         text-transform: uppercase;
+         color: #444135;
+         display: inline-block;
+         padding: 10px 20px 10px 0;
+         margin: 20px 10px;
+         border-right: 1px solid #555555;
+         &:hover {
+            color: $primaryColor;
+            @include transition(0.5s);
+         }
+         &:last-child {
+            border: none;
+         }
+    }
+    .navbar-nav.nav-justified > li{
+    float: none;
     }
 }
 
@@ -65,11 +64,42 @@
 
 /* --- Flexslider --- */
 
+.flexslider {
+    margin-top: 10.25rem;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    .slides {
+        width: inherit;
+        max-width: inherit;
+        height: inherit;
+        li {
+            width: 100%;
+            max-width: 100%;
+            height: inherit;
+            img {
+                width: inherit;
+                max-width: inherit;
+                height: inherit;
+            }
+        }
+    }
+}
+
 /* --- Backstretch ---*/
 
 .backstretch-slider {
-    margin-top: 50px;
-    margin-bottom: -75px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.backstretch {
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
 }
 
 /* --- Section Header --- */

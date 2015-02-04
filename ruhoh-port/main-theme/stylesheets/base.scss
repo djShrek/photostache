@@ -8,11 +8,20 @@ $midnightBlue: #2c3e50;
 $emerald: #2ecc71;
 $greenSea: #16a085;
 
+/* Photostache Colors */
 
-$primaryColor: $turquoise;
+$photostacheBlue: #3C7CBF;
+$photostachePink: #D87782;
+$cameraBlue: #6CAEDF;
+$cameraGreen: #D6E9DE;
+$stacheYellow: #FFEF77;
+
+/* End */
+
+$primaryColor: $photostachePink;
 $secondaryColor: $midnightBlue;
 $tertiaryColor: $concrete;
-$fourthColor: $clouds;
+$fourthColor: $cameraGreen;
 
 /* --- FONTS --- */
 
@@ -85,13 +94,6 @@ header {
     font-family: $primaryFont;
     font-size: 50px;
     text-align: center;
-    height: 150px;
-    /* Start here */ 
-    /*
-    position: fixed;
-    width: 100%;
-    top: 0;
-    */
 }
 
 footer {
