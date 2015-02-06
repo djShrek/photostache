@@ -9,8 +9,11 @@
 /*--- SECTION 2 AKA ABOUT ---*/
 
 #section2 {
-    .gaykim {
-        margin-bottom: 50px;
+    .about-section {
+        p {
+            background-color: $fourthColor;
+            padding: 20px;
+        }
     }
 }
 

@@ -132,10 +132,6 @@ a:hover {
 
 /* --- Flexslider --- */
 /* --- Backstretch ---*/
-.backstretch-slider {
-  margin-top: 50px;
-  margin-bottom: -75px; }
-
 /* --- Section Header --- */
 .section-header {
   font-family: "Montserrat", sans-serif;
@@ -225,8 +221,9 @@ a:hover {
 
 /*--- SECTION 1 ---*/
 /*--- SECTION 2 AKA ABOUT ---*/
-#section2 .gaykim {
-  margin-bottom: 50px; }
+#section2 .about-section p {
+  background-color: #ecf0f1;
+  padding: 20px; }
 
 /*--- SECTION 3 AKA TESTIMONIALS ---*/
 #section3 img {

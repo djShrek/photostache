@@ -11,7 +11,7 @@ $(document).ready(function() {
     "assets/img/slide2.jpg",
     "assets/img/slide3.jpg",
     "assets/img/slide4.jpg"
-  ], {duration: 4000, fade: "normal"});
+  ], {duration: 4000, fade: "normal", centeredX: true, centeredY: true});
 
   /* Set height of div is Window viewport if it exists*/
 
