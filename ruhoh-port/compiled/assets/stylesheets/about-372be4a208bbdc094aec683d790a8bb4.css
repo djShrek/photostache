@@ -1,9 +1,0 @@
-/* --- ABOUT PAGE ---*/
-.about-team img, .about-team h3 {
-  margin-bottom: 30px; }
-.about-team img {
-  width: 250px;
-  height: 250px;
-  border: 1px solid black; }
-.about-team h3 {
-  text-align: center; }
