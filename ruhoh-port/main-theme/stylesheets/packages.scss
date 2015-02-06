@@ -77,3 +77,32 @@
         }
     }
 }  
+
+.plan-addons {
+    .addons {
+        height: 100%;
+        background-color: $photostachePink;
+        margin: 0 auto;
+        color: white;
+        ul {
+            padding: 30px;
+            li {
+                font-size: 18px;
+                list-style-type: disc;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .plan-addons {
+        .addons {
+            height: 100%;
+            padding-top: 20px;
+            h2 {
+                margin-top: 10px;
+            }
+        }
+    }
+}

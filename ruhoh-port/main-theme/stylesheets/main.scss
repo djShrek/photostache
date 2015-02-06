@@ -5,14 +5,56 @@
 /*--- SECTION 1 ---*/
 
 
+#section1 {
+    .section-header {
+        margin-top: 35px;
+    }
+    .intro-div{
+        img {
+            background-color: $cameraGreen;
+            border-radius: 50%;
+            padding: 1.2em;
+            display: block;
+            margin: 0 auto;
+        }
+        h2, p {
+            margin-top: 3.125rem;
+        }
+        h2 {
+            font-family: $primaryFont;
+            text-align: center;
+        }
+        p {
+            background-color: $clouds;
+            font-size: 18px;
+            line-height: 1.6em;
+            padding: 2.1875rem;
+            
+        }
+    }
+}
 
 /*--- SECTION 2 AKA ABOUT ---*/
 
 #section2 {
-    .about-section {
-        p {
-            background-color: $fourthColor;
-            padding: 20px;
+/*
+        background: url(/assets/media/slide5.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100%;
+        h1 {
+            color: white;
+        }
+*/
+    .section2 {
+        .about-section {
+            p {
+                font-size: 17px;
+                background-color: $fourthColor;
+                padding: 25px;
+            }
         }
     }
 }
@@ -21,13 +63,13 @@
 /*--- SECTION 3 AKA TESTIMONIALS ---*/
  
 #section3 {
-    img {
-        border: 2px solid black;
-    }
-    .testimonial {
-        padding: 20px;
-        background-color: $fourthColor;
-
+    p {
+        margin-top: 20px;
+        width: 100%;
+        color: white;
+        padding: 50px;
+        font-family: $primaryFont;
+        font-size: 24px;
     }
 }
 

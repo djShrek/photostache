@@ -10,15 +10,15 @@
 
 html, body {
   height: 100%;
-  margin: 0; }
+  margin: 0;
+  width: auto; }
 
 section {
-  margin: 25px 0 25px 0; }
+  margin: 25px 0 25px 0;
+  width: 100%; }
 
 header {
-  font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  text-align: center; }
+  background-color: #ecf0f1; }
 
 footer {
   color: white;
@@ -45,10 +45,6 @@ a:hover {
   -o-transition: 1s;
   transition: 1s; }
 
-@media screen and (min-width: 401px) {
-  #section3 img {
-    width: 175px;
-    height: 150px; } }
 @media screen and (max-width: 900px) {
   .main-contact-form {
     width: 100%; }
@@ -59,17 +55,8 @@ a:hover {
   header {
     color: black; }
 
-  nav {
-    display: none; }
-
   .map {
     display: none; }
-
-  .testimonial-main {
-    width: 350px; }
-    .testimonial-main img {
-      height: 80px;
-      width: 75px; }
 
   .main-contact-form, .map-section {
     width: 100%; } }

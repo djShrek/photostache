@@ -64,6 +64,39 @@ $(document).ready(function() {
 
  /* Main Gallery Nano Gallery */
 
+    $("#photostacheGallery").nanoGallery({
+      thumbnailWidth: 'auto',
+      thumbnailHeight: 250,
+      userID: '103904153101772789154',
+      kind:'picasa',
+      album: '6112210826813885713&authkey=CN6koOK66Z3KAw',
+      colorScheme: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+      theme: 'light',
+      thumbnailGutterWidth : 0,
+      thumbnailGutterHeight : 0,
+      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
+      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' },
+      thumbnailLazyLoad: true
+    });
+
+    $("#pastEvents").nanoGallery({
+      thumbnailWidth: 'auto',
+      thumbnailHeight: 250,
+      userID: '103904153101772789154',
+      kind:'picasa',
+      album: '6112228930804505729&authkey=CNy0n5rN-LWcvgE',
+      colorScheme: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+      theme: 'light',
+      thumbnailGutterWidth : 0,
+      thumbnailGutterHeight : 0,
+      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
+      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' },
+      thumbnailLazyLoad: true
+    });
+
+
   $("#nanoGallery3").nanoGallery({
       thumbnailWidth: 'auto',
       thumbnailHeight: 250,
@@ -103,4 +136,6 @@ $(document).ready(function() {
    };
 
    fs.flexslider(sliderOptions);
+
+   /* responsive nav */
 });

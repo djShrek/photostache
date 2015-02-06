@@ -1,6 +1,6 @@
 /*
 Syntax error: Undefined variable: "$primaryColor".
-        on line 4 of ./assets/css/contact.scss
+        on line 4 of ./stylesheets/contact.scss
 
 1: 
 2: #contact-main-section {
@@ -13,7 +13,7 @@ Syntax error: Undefined variable: "$primaryColor".
 9:         font-family: $primaryFont;
 
 Backtrace:
-./assets/css/contact.scss:4
+./stylesheets/contact.scss:4
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -64,4 +64,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$primaryColor\".\A         on line 4 of ./assets/css/contact.scss\A \A 1: \A 2: #contact-main-section {\A 3:     margin: 80px 0 0 0;\A 4:     background-color: $primaryColor;\A 5:     display: block;\A 6:     min-height: 100%;\A 7:     margin-bottom: 0 !important;\A 8:     h1 {\A 9:         font-family: $primaryFont;"; }
+  content: "Syntax error: Undefined variable: \"$primaryColor\".\A         on line 4 of ./stylesheets/contact.scss\A \A 1: \A 2: #contact-main-section {\A 3:     margin: 80px 0 0 0;\A 4:     background-color: $primaryColor;\A 5:     display: block;\A 6:     min-height: 100%;\A 7:     margin-bottom: 0 !important;\A 8:     h1 {\A 9:         font-family: $primaryFont;"; }

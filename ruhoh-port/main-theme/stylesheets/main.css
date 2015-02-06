@@ -1,21 +1,21 @@
 /*
-Syntax error: Undefined variable: "$fourthColor".
-        on line 14 of ./assets/css/main.scss
+Syntax error: Undefined variable: "$cameraGreen".
+        on line 14 of ./stylesheets/main.scss
 
-9: /*--- SECTION 2 AKA ABOUT ---*\/
-10: 
-11: #section2 {
-12:     .about-section {
-13:         p {
-14:             background-color: $fourthColor;
-15:             padding: 20px;
-16:         }
-17:     }
-18: }
-19: 
+9:     .section-header {
+10:         margin-top: 35px;
+11:     }
+12:     .intro-div{
+13:         img {
+14:             background-color: $cameraGreen;
+15:             border-radius: 50%;
+16:             padding: 1.2em;
+17:             display: block;
+18:             margin: 0 auto;
+19:         }
 
 Backtrace:
-./assets/css/main.scss:14
+./stylesheets/main.scss:14
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p547/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -88,4 +88,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$fourthColor\".\A         on line 14 of ./assets/css/main.scss\A \A 9: /*--- SECTION 2 AKA ABOUT ---*/\A 10: \A 11: #section2 {\A 12:     .about-section {\A 13:         p {\A 14:             background-color: $fourthColor;\A 15:             padding: 20px;\A 16:         }\A 17:     }\A 18: }\A 19: "; }
+  content: "Syntax error: Undefined variable: \"$cameraGreen\".\A         on line 14 of ./stylesheets/main.scss\A \A 9:     .section-header {\A 10:         margin-top: 35px;\A 11:     }\A 12:     .intro-div{\A 13:         img {\A 14:             background-color: $cameraGreen;\A 15:             border-radius: 50%;\A 16:             padding: 1.2em;\A 17:             display: block;\A 18:             margin: 0 auto;\A 19:         }"; }

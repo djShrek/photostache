@@ -19,7 +19,7 @@ $stacheYellow: #FFEF77;
 /* End */
 
 $primaryColor: $photostachePink;
-$secondaryColor: $midnightBlue;
+$secondaryColor: $photostacheBlue;
 $tertiaryColor: $concrete;
 $fourthColor: $cameraGreen;
 
@@ -84,16 +84,16 @@ $secondaryFont: 'Montserrat', sans-serif;
 html, body {
     height: 100%;
     margin: 0;
+    width: auto;
 }
 
 section {
     margin: 25px 0 25px 0;
+    width: 100%;
 }
 
 header {
-    font-family: $primaryFont;
-    font-size: 50px;
-    text-align: center;
+    background-color: $clouds;
 }
 
 footer {
@@ -129,15 +129,6 @@ a {
     }
 }
 
-@media screen and (min-width: 401px) {
-    #section3 {
-        img {
-            width: 175px;
-            height: 150px;
-        }
-    }
-}
-
 @media screen and (max-width: 900px) {
 
         .main-contact-form {
@@ -153,18 +144,10 @@ a {
     header {
         color: black;
     }
-    nav {
-         display: none;
-    }
+
+
     .map {
         display: none;
-    }
-    .testimonial-main {
-        width: 350px;
-        img {
-            height: 80px;
-            width: 75px;
-        }
     }
     .main-contact-form, .map-section {
         width: 100%;

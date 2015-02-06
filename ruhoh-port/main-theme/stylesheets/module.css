@@ -5,7 +5,7 @@ Syntax error: Undefined variable: "$secondaryFont".
 28:             }
 29:         }
 30:     }
-31:     a {
+31:     .main-nav-link {
 32:          color: #555555;
 33:          font-family: $secondaryFont;
 34:          font-size: 1.1em; 
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 33 of ./stylesheets/module.scss\A \A 28:             }\A 29:         }\A 30:     }\A 31:     a {\A 32:          color: #555555;\A 33:          font-family: $secondaryFont;\A 34:          font-size: 1.1em; \A 35:          letter-spacing: 2px;\A 36:          text-decoration: none;\A 37:          font-weight: bold;\A 38:          text-transform: uppercase;"; }
+  content: "Syntax error: Undefined variable: \"$secondaryFont\".\A         on line 33 of ./stylesheets/module.scss\A \A 28:             }\A 29:         }\A 30:     }\A 31:     .main-nav-link {\A 32:          color: #555555;\A 33:          font-family: $secondaryFont;\A 34:          font-size: 1.1em; \A 35:          letter-spacing: 2px;\A 36:          text-decoration: none;\A 37:          font-weight: bold;\A 38:          text-transform: uppercase;"; }

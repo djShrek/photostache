@@ -28,10 +28,9 @@
         font-size: 20px;
     }
     .form {
-        background-color: $clouds;
-        padding: 50px;
+
         margin-bottom: 150px;
-        @include borderRadius(5px);
+
 
     }
     .input-group-addon {
@@ -49,4 +48,16 @@
             @include transition(0.5s);
         }
     }
+}
+
+@media (max-width: 700px) {
+    .email-main {
+        .email-form {
+            width: 100%;
+        }
+    }
+    [class*="col-"]{
+      margin-bottom: 15px;
+    }
+
 }
